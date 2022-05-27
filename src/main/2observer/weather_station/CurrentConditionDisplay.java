@@ -1,6 +1,8 @@
 package weather_station;
 
-public class CurrentConditionDisplay implements Observer, DisplayElement{
+import weather_station.display.DisplayElement;
+
+public class CurrentConditionDisplay implements Observer, DisplayElement {
     @Override
     public void display() {
 
