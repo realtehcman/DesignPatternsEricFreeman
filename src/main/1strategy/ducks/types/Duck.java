@@ -1,15 +1,13 @@
-package ducks;
+package ducks.types;
 
 import ducks.strategies.IQuackBehavior;
 import ducks.strategies.IFlyBehavior;
 
-public class Duck {
+public abstract class Duck {
     private IQuackBehavior quackBehavior;
     private IFlyBehavior flyBehavior;
 
-    public void swim() {
-        System.out.println("Look, I am swimming!");
-    }
+    public abstract void swim();
 
     public void display() {
         System.out.println("I am a duck! Look at me");
