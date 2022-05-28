@@ -1,7 +1,7 @@
 # [Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/)
 _Eric Freeman & Elisabeth Freeman, with Kathy Sierra & Bert Bates_
 
-Studying patterns based on book Head First Design Patterns 2nd Edition ([book included in resources](ttps://github.com/realtehcman/DesignPatternsEricFreeman/blob/536392909446aedcb88e00c5711659b89edb6abd/recources/freeman_eric_robson_elisabeth_head_first_design_patterns_bui.pdf))
+Studying patterns based on book Head First Design Patterns 2nd Edition ([book included in the resources folder](recources/freeman_eric_robson_elisabeth_head_first_design_patterns_bui.pdf))
 
 
 ## OO Principles
