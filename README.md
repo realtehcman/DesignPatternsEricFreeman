@@ -76,7 +76,7 @@ Studying patterns based on book Head First Design Patterns 2nd Edition ([book in
 * Don't call us, we'll call you!
 * A class should have only one reason to change
 
-# The Strategy Pattern
+# [The Strategy Pattern](https://github.com/realtehcman/DesignPatternsEricFreeman/blob/master/1strategy)
 
 |pattern | categories | tags|
 |------  |---------   |--------|
