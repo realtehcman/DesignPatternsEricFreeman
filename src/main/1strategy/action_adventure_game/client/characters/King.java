@@ -1,6 +1,6 @@
 package action_adventure_game.client.characters;
 
-import action_adventure_game.algorithms.SwordBehavior;
+import action_adventure_game.behaviors.SwordBehavior;
 
 public class King extends Character{
     public King() {

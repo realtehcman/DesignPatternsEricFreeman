@@ -1,6 +1,6 @@
 package action_adventure_game.client.characters;
 
-import action_adventure_game.algorithms.AxeBehavior;
+import action_adventure_game.behaviors.AxeBehavior;
 
 public class Troll extends Character{
     public Troll() {

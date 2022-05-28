@@ -1,7 +1,7 @@
 package ducks.client.types;
 
-import ducks.strategies.IQuackBehavior;
-import ducks.strategies.IFlyBehavior;
+import ducks.behaviors.types_of_quacking.IQuackBehavior;
+import ducks.behaviors.types_of_flying.IFlyBehavior;
 
 public abstract class Duck {
     private IQuackBehavior quackBehavior;

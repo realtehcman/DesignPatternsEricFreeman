@@ -1,6 +1,4 @@
-package ducks.algorithms.types_of_flying;
-
-import ducks.strategies.IFlyBehavior;
+package ducks.behaviors.types_of_flying;
 
 public class FlyWithWingsBehavior implements IFlyBehavior {
     @Override

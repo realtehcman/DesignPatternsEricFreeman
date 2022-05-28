@@ -1,7 +1,7 @@
 package ducks.client.types;
 
-import ducks.algorithms.types_of_flying.FlyWithWingsBehavior;
-import ducks.algorithms.types_of_quacking.QuackBehavior;
+import ducks.behaviors.types_of_flying.FlyWithWingsBehavior;
+import ducks.behaviors.types_of_quacking.QuackBehavior;
 
 public class RedheadDuck extends Duck {
 

@@ -1,7 +1,7 @@
 package ducks.client.types;
 
-import ducks.algorithms.types_of_flying.NoFlyBehavior;
-import ducks.algorithms.types_of_quacking.SqueakBehavior;
+import ducks.behaviors.types_of_flying.NoFlyBehavior;
+import ducks.behaviors.types_of_quacking.SqueakBehavior;
 
 public class DecoyDuck extends Duck {
 

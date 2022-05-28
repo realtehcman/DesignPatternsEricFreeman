@@ -1,6 +1,6 @@
 package action_adventure_game.client.characters;
 
-import action_adventure_game.algorithms.KnifeBehavior;
+import action_adventure_game.behaviors.KnifeBehavior;
 
 public class Queen extends Character{
     public Queen() {

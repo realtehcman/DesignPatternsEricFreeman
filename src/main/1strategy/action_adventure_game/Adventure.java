@@ -1,6 +1,6 @@
 package action_adventure_game;
 
-import action_adventure_game.algorithms.SwordBehavior;
+import action_adventure_game.behaviors.SwordBehavior;
 import action_adventure_game.client.characters.Character;
 import action_adventure_game.client.characters.King;
 import action_adventure_game.client.characters.Queen;

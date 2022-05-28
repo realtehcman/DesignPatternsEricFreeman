@@ -1,6 +1,6 @@
 package action_adventure_game.client.characters;
 
-import action_adventure_game.strategies.IWeaponBehavior;
+import action_adventure_game.behaviors.IWeaponBehavior;
 
 public abstract class Character {
     private IWeaponBehavior weaponBehavior;

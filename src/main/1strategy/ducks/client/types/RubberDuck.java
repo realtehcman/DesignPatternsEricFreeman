@@ -1,7 +1,7 @@
 package ducks.client.types;
 
-import ducks.algorithms.types_of_flying.NoFlyBehavior;
-import ducks.algorithms.types_of_quacking.MuteQuackBehavior;
+import ducks.behaviors.types_of_flying.NoFlyBehavior;
+import ducks.behaviors.types_of_quacking.MuteQuackBehavior;
 
 public class RubberDuck extends Duck {
     public RubberDuck() {

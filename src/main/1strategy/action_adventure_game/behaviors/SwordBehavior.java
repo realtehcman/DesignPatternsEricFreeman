@@ -1,6 +1,6 @@
-package action_adventure_game.algorithms;
+package action_adventure_game.behaviors;
 
-import action_adventure_game.strategies.IWeaponBehavior;
+import action_adventure_game.behaviors.IWeaponBehavior;
 
 public class SwordBehavior implements IWeaponBehavior {
     @Override

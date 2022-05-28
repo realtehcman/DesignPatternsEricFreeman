@@ -1,6 +1,4 @@
-package ducks.algorithms.types_of_quacking;
-
-import ducks.strategies.IQuackBehavior;
+package ducks.behaviors.types_of_quacking;
 
 public class MuteQuackBehavior implements IQuackBehavior {
     @Override

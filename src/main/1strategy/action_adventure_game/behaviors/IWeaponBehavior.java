@@ -1,4 +1,4 @@
-package action_adventure_game.strategies;
+package action_adventure_game.behaviors;
 
 public interface IWeaponBehavior {
     void useWeapon();
