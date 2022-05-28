@@ -1,4 +1,4 @@
-package ducks.types;
+package ducks.client.types;
 
 import ducks.strategies.IQuackBehavior;
 import ducks.strategies.IFlyBehavior;
