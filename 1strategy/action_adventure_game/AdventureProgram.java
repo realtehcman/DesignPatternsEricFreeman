@@ -5,7 +5,7 @@ import action_adventure_game.client.characters.Character;
 import action_adventure_game.client.characters.King;
 import action_adventure_game.client.characters.Queen;
 
-public class Adventure {
+public class AdventureProgram {
     public static void main(String[] args) {
         Character king = new King();
         king.performWeaponBehavior();

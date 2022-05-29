@@ -7,18 +7,18 @@ public abstract class Duck {
     private IQuackBehavior quackBehavior;
     private IFlyBehavior flyBehavior;
 
-    public abstract void swim();
-
-    public void display() {
-        System.out.println("I am a duck! Look at me");
-    }
-
     public void setQuackBehavior(IQuackBehavior quackBehavior) {
         this.quackBehavior = quackBehavior;
     }
 
     public void setFlyBehavior(IFlyBehavior flyBehavior) {
         this.flyBehavior = flyBehavior;
+    }
+
+    public abstract void swim();
+
+    public void display() {
+        System.out.println("I am a duck! Look at me");
     }
 
     public void performFly() {
