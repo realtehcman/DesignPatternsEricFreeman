@@ -6,9 +6,8 @@ Strategy lets the algorithm vary independently from
 clients that use it
 * */
 
-import ducks.behaviors.types_of_flying.FlyWithWingsBehavior;
-import ducks.client.types.DecoyDuck;
-import ducks.client.types.Duck;
+import ducks.clients.DecoyDuck;
+import ducks.clients.Duck;
 
 public class DuckProgram {
     public static void main(String[] args) {

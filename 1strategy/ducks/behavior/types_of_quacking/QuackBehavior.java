@@ -1,4 +1,4 @@
-package ducks.behaviors.types_of_quacking;
+package ducks.behavior.types_of_quacking;
 
 public class QuackBehavior implements IQuackBehavior {
     @Override
