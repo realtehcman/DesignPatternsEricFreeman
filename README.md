@@ -108,11 +108,25 @@ Wikipedia says
 > In computer programming, the strategy pattern (also known as the policy pattern) is a behavioral 
 > software design pattern that enables selecting an algorithm at runtime.
 
+### Quick Overview
+    
+- prefer HAS-A over IS-A relationship
+- extract algorithms (behaviors, interfaces) and put them into fields (has a relationship)
+    
+    *this way we*
+    
+    - interface is basically a place holder to be implemented by an concrete method from a class
+    - we reuse some algorithms
+    - we solve problem with the code duplication that happens with inheritance
+            
+- perform dependency injection
+        
+    - it dynamically sets the implementation of those algorithms
 
-
-# The Observer Pattern
+# [The Observer Pattern](https://github.com/realtehcman/DesignPatternsEricFreeman/blob/master/2observer/weather_station)
 Defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 
+### Quick Overview
 - glossary
     - in the book they actively use “subject”, yet, in my examples I use observable for the clearer understanding. “Observable” is observed by an “Observer”
 - when to use
@@ -124,13 +138,14 @@ Defines a one-to-many dependency between objects so that when one object changes
 - objects in the pattern
     - Observable; gets changes and notifies an observer
     - Observer; pulls changes when notified
-- we implement the push pull behavior. Observable pushes, and observer pulls the changes
+- we implement the push pull behavior. Observable pushes, and observer pulls the changes  
     - IObservable has couple methods: add(), remove(), notify(),
-    - Observable : IObservable has getTemparature() and other additional methods, and has ***IObserver*** object
+    - Observable : IObservable has getTemparature() and other additional methods, and has ***IObserver*** object  
     
     - IObserver has update method
     - Observer : IObserver and has ***Observable*** object
-    - we implement the push push behavior. Observable notifies and pushes update, and observer has update(Observable object) method
+        - what if we want to implement the push push behavior. 
+            - Observable notifies and pushes update, and observer has update(Observable object) method
 
 # The Decorator Pattern
 Attaches additional responsibilities to an object dynamically.  Decorators provide a flexible alternative to sub-classing for extending functionality.
