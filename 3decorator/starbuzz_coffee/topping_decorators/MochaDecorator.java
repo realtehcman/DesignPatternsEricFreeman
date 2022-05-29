@@ -1,6 +1,6 @@
 package starbuzz_coffee.topping_decorators;
 
-import starbuzz_coffee.Coffee;
+import starbuzz_coffee.coffee_types.Coffee;
 
 public class MochaDecorator extends FlavorDecorator{
     public MochaDecorator(Coffee coffee) {
@@ -9,11 +9,12 @@ public class MochaDecorator extends FlavorDecorator{
 
     @Override
     public String getDescription() {
-        return "Mocha";
+        return super.initialCoffee.getDescription() + " Mocha added ";
     }
 
+    //recursive method chaining
     @Override
     public double getPrice() {
-        return 0.3;
+        return  super.initialCoffee.getPrice() + 0.3;
     }
 }

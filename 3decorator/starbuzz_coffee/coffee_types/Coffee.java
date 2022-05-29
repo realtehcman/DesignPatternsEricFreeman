@@ -1,4 +1,4 @@
-package starbuzz_coffee;
+package starbuzz_coffee.coffee_types;
 
 public abstract class Coffee {
     public String getDescription(){

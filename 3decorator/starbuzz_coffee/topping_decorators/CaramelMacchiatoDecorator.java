@@ -1,6 +1,6 @@
 package starbuzz_coffee.topping_decorators;
 
-import starbuzz_coffee.Coffee;
+import starbuzz_coffee.coffee_types.Coffee;
 
 public class CaramelMacchiatoDecorator extends FlavorDecorator {
     public CaramelMacchiatoDecorator(Coffee coffee) {
@@ -9,11 +9,12 @@ public class CaramelMacchiatoDecorator extends FlavorDecorator {
 
     @Override
     public String getDescription() {
-        return "Caramel Macchiato. Steamed milk, espresso and caramel; what could be more enticing? ... ";
+        return super.initialCoffee.getDescription() + " Caramel Macchiato. Steamed milk, espresso and caramel added ";
     }
 
+    //recursive method chaining
     @Override
     public double getPrice() {
-        return 1.3;
+        return super.initialCoffee.getPrice() + 1.3;
     }
 }
