@@ -1,11 +1,11 @@
 package starbuzz_coffee.topping_decorators;
 
-import starbuzz_coffee.ICoffee;
+import starbuzz_coffee.Coffee;
 
-public abstract class FlavorDecorator implements ICoffee {
-    private ICoffee coffee;
+public abstract class FlavorDecorator extends Coffee {
+    private Coffee coffee;
 
-    protected FlavorDecorator(ICoffee coffee) {
+    protected FlavorDecorator(Coffee coffee) {
         this.coffee = coffee;
     }
 

@@ -1,4 +1,10 @@
 package starbuzz_coffee.coffee_types;
 
-public class Cappuccino {
+import starbuzz_coffee.Coffee;
+
+public class Cappuccino extends Coffee {
+    @Override
+    public double getPrice() {
+        return 1.3;
+    }
 }

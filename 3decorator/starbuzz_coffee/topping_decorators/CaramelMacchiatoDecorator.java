@@ -1,9 +1,9 @@
 package starbuzz_coffee.topping_decorators;
 
-import starbuzz_coffee.ICoffee;
+import starbuzz_coffee.Coffee;
 
 public class CaramelMacchiatoDecorator extends FlavorDecorator {
-    public CaramelMacchiatoDecorator(ICoffee coffee) {
+    public CaramelMacchiatoDecorator(Coffee coffee) {
         super(coffee);
     }
 

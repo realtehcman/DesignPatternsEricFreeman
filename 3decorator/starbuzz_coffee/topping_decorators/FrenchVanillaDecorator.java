@@ -1,9 +1,9 @@
 package starbuzz_coffee.topping_decorators;
 
-import starbuzz_coffee.ICoffee;
+import starbuzz_coffee.Coffee;
 
 public class FrenchVanillaDecorator extends FlavorDecorator{
-    public FrenchVanillaDecorator(ICoffee coffee) {
+    public FrenchVanillaDecorator(Coffee coffee) {
         super(coffee);
     }
 

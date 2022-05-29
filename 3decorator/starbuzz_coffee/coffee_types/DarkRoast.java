@@ -1,4 +1,10 @@
 package starbuzz_coffee.coffee_types;
 
-public class DarkRoast {
+import starbuzz_coffee.Coffee;
+
+public class DarkRoast extends Coffee {
+    @Override
+    public double getPrice() {
+        return 2.10;
+    }
 }
