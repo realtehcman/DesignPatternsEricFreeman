@@ -113,6 +113,25 @@ Wikipedia says
 # The Observer Pattern
 Defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 
+- glossary
+    - in the book they actively use “subject”, yet, in my examples I use observable for the clearer understanding. “Observable” is observed by an “Observer”
+- when to use
+    - subscriptions
+    - notify listeners on updates
+- one to many relationships
+    - observable can have many observers
+- observers may be also observables
+- objects in the pattern
+    - Observable; gets changes and notifies an observer
+    - Observer; pulls changes when notified
+- we implement the push pull behavior. Observable pushes, and observer pulls the changes
+    - IObservable has couple methods: add(), remove(), notify(),
+    - Observable : IObservable has getTemparature() and other additional methods, and has ***IObserver*** object
+    
+    - IObserver has update method
+    - Observer : IObserver and has ***Observable*** object
+    - we implement the push push behavior. Observable notifies and pushes update, and observer has update(Observable object) method
+
 # The Decorator Pattern
 Attaches additional responsibilities to an object dynamically.  Decorators provide a flexible alternative to sub-classing for extending functionality.
 
