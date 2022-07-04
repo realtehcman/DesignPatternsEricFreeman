@@ -128,8 +128,8 @@ be changed.
 objects are. In other words, you don't want these objects tightly coupled.
 
 # The Decorator Pattern
-Attaches additional responsibilities to an object dynamically.  Decorators provide a flexible alternative to sub-classing for extending functionality.
-
+[Strategy Pattern V/S Decorator Pattern](https://stackoverflow.com/questions/26422884/strategy-pattern-v-s-decorator-pattern)  
+> It boils down to this: Use Strategy to choose one piece of core functionality. Use Decorator to add extra functionality. Strategy is the cake we're making and Decorator is all the pretty decorations we're adding to it.
 # The Factory Pattern
 ## The Factory Method Pattern
 Defines an interface for creating an object, but lets sub-classes decide which class to instantiate.  Factory Method lets a class defer instantiation to sub-classes.
