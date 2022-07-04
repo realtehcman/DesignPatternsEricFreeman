@@ -20,13 +20,14 @@ public class DuckProgram {
         decoyDuck.display();
         System.out.println("====");
 
-        DecoyDuck decoyDuck2 = new DecoyDuck();
+        //we code to interface; only use the code above
+     /*   DecoyDuck decoyDuck2 = new DecoyDuck();
         decoyDuck2.performFly();
         decoyDuck2.performQuack();
         decoyDuck2.swim();
         decoyDuck2.display();
         //first duck cannot have method reveal
         decoyDuck2.reveal();
-
+*/
     }
 }
