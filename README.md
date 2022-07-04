@@ -10,6 +10,8 @@ Studying patterns based on the book Head First Design Patterns 2nd Edition ([boo
 |---------   |--------|
 | Bahavioral | Gang of Four|
 
+![alt text](./UMLs/1strategy.png "The Strategy Pattern UML")
+
 ## Quick Overview
     
 - prefer HAS-A over IS-A relationship
@@ -66,6 +68,8 @@ Use the Strategy pattern when
 | categories | tags|
 |---------   |--------|
 | Bahavioral | Gang of Four, Reactive|
+
+![alt text](./UMLs/2observer.png "The Observer UML")
 
 ## Quick Overview
 - glossary
@@ -127,7 +131,17 @@ be changed.
 * When an object should be able to notify other objects without making assumptions about who these 
 objects are. In other words, you don't want these objects tightly coupled.
 
-# The Decorator Pattern
+# [The Decorator Pattern](https://github.com/realtehcman/DesignPatternsEricFreeman/blob/master/3decorator/starbuzz_coffee)
+| categories | tags|
+|---------   |--------|
+| Structural | Gang of Four, Extensibility|
+
+
+![alt text](./UMLs/3decorator.png "The Decorator UML")
+
+## Quick Overview
+
+
 [Strategy Pattern V/S Decorator Pattern](https://stackoverflow.com/questions/26422884/strategy-pattern-v-s-decorator-pattern)  
 > It boils down to this: Use Strategy to choose one piece of core functionality. Use Decorator to add extra functionality. Strategy is the cake we're making and Decorator is all the pretty decorations we're adding to it.
 # The Factory Pattern
