@@ -193,6 +193,61 @@ definition may be hidden or otherwise unavailable for subclassing.
 
 
 # The Factory Pattern
+|categories | tags |
+|-----------|-------------|
+|Creational |Gang of Four|
+
+![alt text](./UMLs/4.1simple_factory_programming_idiom.png "The Simple Factory Programming Idiom")
+
+
+## Quick Overview
+- it encapsulates the object creation logic
+- it is used when we do not know what object should be created
+- patter could have many factories and many objects to create; we create object without exposing the creation logic
+- we pass a parameter into the factory
+- in the factory must return a constructed object
+- one of the most used design patterns in Java
+
+
+## Also known as
+
+* Simple Factory
+* Static Factory Method
+
+## Intent
+
+Providing a static method encapsulated in a class called the factory, to hide the implementation 
+logic and make client code focus on usage rather than initializing new objects.
+
+## Explanation
+
+Real-world example
+
+> Imagine an alchemist who is about to manufacture coins. The alchemist must be able to create both 
+> gold and copper coins and switching between them must be possible without modifying the existing 
+> source code. The factory pattern makes it possible by providing a static construction method which 
+> can be called with relevant parameters.
+
+Wikipedia says
+
+> Factory is an object for creating other objects – formally a factory is a function or method that 
+> returns objects of a varying prototype or class.
+
+## Applicability
+
+Use the factory pattern when you only care about the creation of a object, not how to create 
+and manage it.
+
+Pros
+
+* Allows keeping all objects creation in one place and avoid of spreading 'new' keyword across codebase.
+* Allows to write loosely coupled code. Some of its main advantages include better testability, easy-to-understand code, swappable components, scalability and isolated features.
+
+Cons
+
+* The code becomes more complicated than it should be. 
+
+
 ## The Factory Method Pattern
 Defines an interface for creating an object, but lets sub-classes decide which class to instantiate.  Factory Method lets a class defer instantiation to sub-classes.
 ### The Abstract Factory Pattern
