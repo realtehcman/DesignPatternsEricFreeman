@@ -144,6 +144,54 @@ objects are. In other words, you don't want these objects tightly coupled.
 
 [Strategy Pattern V/S Decorator Pattern](https://stackoverflow.com/questions/26422884/strategy-pattern-v-s-decorator-pattern)  
 > It boils down to this: Use Strategy to choose one piece of core functionality. Use Decorator to add extra functionality. Strategy is the cake we're making and Decorator is all the pretty decorations we're adding to it.
+
+- how it works
+    - think about the recursion
+    - we have abstract component (could be interface) and concrete component implementations; we have the abstract decorator that has and inherits from the abstract component
+    - we have many concrete decorators that extends abstract decorator and wrap the component; each of the concrete decorator get the price from the component with the `super.`**added** amount, and return the `super.` **concatenated** description
+
+## Also known as
+
+Wrapper
+
+## Intent
+
+Attach additional responsibilities to an object dynamically. Decorators provide a flexible 
+alternative to subclassing for extending functionality.
+
+## Explanation
+
+Real-world example
+
+> There is an angry troll living in the nearby hills. Usually, it goes bare-handed but sometimes it 
+> has a weapon. To arm the troll it's not necessary to create a new troll but to decorate it 
+> dynamically with a suitable weapon.
+
+In plain words
+
+> Decorator pattern lets you dynamically change the behavior of an object at run time by wrapping 
+> them in an object of a decorator class.
+
+Wikipedia says
+
+> In object-oriented programming, the decorator pattern is a design pattern that allows behavior to 
+> be added to an individual object, either statically or dynamically, without affecting the behavior 
+> of other objects from the same class. The decorator pattern is often useful for adhering to the 
+> Single Responsibility Principle, as it allows functionality to be divided between classes with 
+> unique areas of concern.
+
+## Applicability
+
+Decorator is used to:
+
+* Add responsibilities to individual objects dynamically and transparently, that is, without 
+affecting other objects.
+* For responsibilities that can be withdrawn.
+* When extension by subclassing is impractical. Sometimes a large number of independent extensions 
+are possible and would produce an explosion of subclasses to support every combination. Or a class 
+definition may be hidden or otherwise unavailable for subclassing.
+
+
 # The Factory Pattern
 ## The Factory Method Pattern
 Defines an interface for creating an object, but lets sub-classes decide which class to instantiate.  Factory Method lets a class defer instantiation to sub-classes.
