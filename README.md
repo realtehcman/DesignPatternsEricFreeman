@@ -192,7 +192,9 @@ are possible and would produce an explosion of subclasses to support every combi
 definition may be hidden or otherwise unavailable for subclassing.
 
 
-# The Factory Pattern
+# [The Factory Pattern](https://github.com/realtehcman/DesignPatternsEricFreeman/blob/master/4factory/shape)
+## The Simple Factory
+
 |categories | tags |
 |-----------|-------------|
 |Creational |Gang of Four|
