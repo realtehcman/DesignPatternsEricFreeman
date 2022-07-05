@@ -197,8 +197,6 @@ definition may be hidden or otherwise unavailable for subclassing.
 |-----------|-------------|
 |Creational |Gang of Four|
 
-![alt text](./UMLs/4.0factory.png "The Factory")
-
 ## Quick Overview
 - it encapsulates the object creation logic
 - it is used when we do not know what object should be created
@@ -248,7 +246,11 @@ Cons
 
 
 ## The Factory Method Pattern
+
+![alt text](./UMLs/4.0factory.png "The Factory")
+
 Defines an interface for creating an object, but lets sub-classes decide which class to instantiate.  Factory Method lets a class defer instantiation to sub-classes.
+
 ### The Abstract Factory Pattern
 Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 > Both of these patterns encapsulate object creation and lead to more decoupled, flexible designs.
