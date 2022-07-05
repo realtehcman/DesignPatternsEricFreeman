@@ -4,7 +4,7 @@ _Eric Freeman & Elisabeth Freeman, with Kathy Sierra & Bert Bates_
 Studying patterns based on the book Head First Design Patterns 2nd Edition ([book included in the resources folder](recources/freeman_eric_robson_elisabeth_head_first_design_patterns_bui.pdf))
 
 # Menu
-* The Strategy Pattern(#"The Strategy Pattern")
+* The Strategy Pattern(#The Strategy Pattern)
 * The Observer Pattern
 * The Decorator Pattern
 * The Factory Pattern
