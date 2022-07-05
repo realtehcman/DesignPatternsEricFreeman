@@ -270,8 +270,9 @@ Defines an interface for creating an object, but lets sub-classes decide which c
 * The factory method has the interface
 
 ## The Abstract Factory Pattern
-Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
-> Both of these patterns encapsulate object creation and lead to more decoupled, flexible designs.
+![alt text](./UMLs/4.2abstract_factory.png "The Abstract Factory")
+
+Factory just creates multiple related products.
 
 # The Singleton Pattern
 Ensures a class has only one instance, and provides a global point of access to it.
