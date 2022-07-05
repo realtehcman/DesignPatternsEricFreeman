@@ -192,13 +192,12 @@ are possible and would produce an explosion of subclasses to support every combi
 definition may be hidden or otherwise unavailable for subclassing.
 
 
-# The Factory Pattern
+# [The Factory Pattern](https://github.com/realtehcman/DesignPatternsEricFreeman/blob/master/4factory/shape)
 |categories | tags |
 |-----------|-------------|
 |Creational |Gang of Four|
 
-![alt text](./UMLs/4.1simple_factory_programming_idiom.png "The Simple Factory Programming Idiom")
-
+![alt text](./UMLs/4.0factory.png "The Factory")
 
 ## Quick Overview
 - it encapsulates the object creation logic
@@ -208,10 +207,10 @@ definition may be hidden or otherwise unavailable for subclassing.
 - in the factory must return a constructed object
 - one of the most used design patterns in Java
 
+## The Simple Factory
+![alt text](./UMLs/4.1simple_factory_programming_idiom.png "The Simple Factory Programming Idiom")
 
 ## Also known as
-
-* Simple Factory
 * Static Factory Method
 
 ## Intent
