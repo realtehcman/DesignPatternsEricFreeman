@@ -251,6 +251,10 @@ Cons
 
 Defines an interface for creating an object, but lets sub-classes decide which class to instantiate.  Factory Method lets a class defer instantiation to sub-classes.
 
+## Difference between Simple Factory and Factory Method
+    
+* The factory method has the interface
+
 ### The Abstract Factory Pattern
 Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 > Both of these patterns encapsulate object creation and lead to more decoupled, flexible designs.
