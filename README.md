@@ -3,6 +3,20 @@ _Eric Freeman & Elisabeth Freeman, with Kathy Sierra & Bert Bates_
 
 Studying patterns based on the book Head First Design Patterns 2nd Edition ([book included in the resources folder](recources/freeman_eric_robson_elisabeth_head_first_design_patterns_bui.pdf))
 
+# Menu
+* [The Strategy Pattern](#the-strategy-pattern)
+* [The Observer Pattern](#the-observer-pattern)
+* [The Decorator Pattern](#the-decorator-pattern)
+* [The Factory Pattern](#the-factory-pattern)
+* [The Singleton Pattern](#the-singleton-pattern)
+* [The Command Pattern](#the-command-pattern)
+* [The Adapter Pattern](#the-adapter-pattern)
+* [The Facade Pattern](#the-facade-pattern)
+* [The Template Method Pattern](#the-template-method-pattern)
+* [The Iterator Pattern](#the-iterator-pattern)
+* [The Composite Pattern](#the-composite-pattern)
+* [The State Pattern](#the-state-pattern)
+* [OOP Principles](#oop-principles)
 
 # [The Strategy Pattern](https://github.com/realtehcman/DesignPatternsEricFreeman/blob/master/1strategy)
 
@@ -197,8 +211,6 @@ definition may be hidden or otherwise unavailable for subclassing.
 |-----------|-------------|
 |Creational |Gang of Four|
 
-![alt text](./UMLs/4.0factory.png "The Factory")
-
 ## Quick Overview
 - it encapsulates the object creation logic
 - it is used when we do not know what object should be created
@@ -207,18 +219,18 @@ definition may be hidden or otherwise unavailable for subclassing.
 - in the factory must return a constructed object
 - one of the most used design patterns in Java
 
-## The Simple Factory
+# The Simple Factory
 ![alt text](./UMLs/4.1simple_factory_programming_idiom.png "The Simple Factory Programming Idiom")
 
-## Also known as
+### Also known as
 * Static Factory Method
 
-## Intent
+### Intent
 
 Providing a static method encapsulated in a class called the factory, to hide the implementation 
 logic and make client code focus on usage rather than initializing new objects.
 
-## Explanation
+### Explanation
 
 Real-world example
 
@@ -232,7 +244,7 @@ Wikipedia says
 > Factory is an object for creating other objects – formally a factory is a function or method that 
 > returns objects of a varying prototype or class.
 
-## Applicability
+### Applicability
 
 Use the factory pattern when you only care about the creation of a object, not how to create 
 and manage it.
@@ -248,10 +260,19 @@ Cons
 
 
 ## The Factory Method Pattern
+
+![alt text](./UMLs/4.0factory.png "The Factory")
+
 Defines an interface for creating an object, but lets sub-classes decide which class to instantiate.  Factory Method lets a class defer instantiation to sub-classes.
-### The Abstract Factory Pattern
-Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
-> Both of these patterns encapsulate object creation and lead to more decoupled, flexible designs.
+
+### Difference between Simple Factory and Factory Method
+    
+* The factory method has the interface
+
+## The Abstract Factory Pattern
+![alt text](./UMLs/4.2abstract_factory.png "The Abstract Factory")
+
+Factory just creates multiple related products.
 
 # The Singleton Pattern
 Ensures a class has only one instance, and provides a global point of access to it.
@@ -280,7 +301,7 @@ Allows an object to alter its behaviour when its internal state changes.  The ob
 
 
 
-# OO Principles
+# OOP Principles
 * Encapsulate what varies
 * Delegation. Favor composition over inheritance
 * Program to interfaces, not implementations
