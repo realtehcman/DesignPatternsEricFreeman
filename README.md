@@ -3,6 +3,20 @@ _Eric Freeman & Elisabeth Freeman, with Kathy Sierra & Bert Bates_
 
 Studying patterns based on the book Head First Design Patterns 2nd Edition ([book included in the resources folder](recources/freeman_eric_robson_elisabeth_head_first_design_patterns_bui.pdf))
 
+# Menu
+* The Strategy Pattern(#"The Strategy Pattern")
+* The Observer Pattern
+* The Decorator Pattern
+* The Factory Pattern
+* The Singleton Pattern
+* The Command Pattern
+* The Adapter Pattern
+* The Facade Pattern
+* The Template Method Pattern
+* The Iterator Pattern
+* The Composite Pattern
+* The State Pattern
+* OOP Principles
 
 # [The Strategy Pattern](https://github.com/realtehcman/DesignPatternsEricFreeman/blob/master/1strategy)
 
@@ -286,7 +300,7 @@ Allows an object to alter its behaviour when its internal state changes.  The ob
 
 
 
-# OO Principles
+# OOP Principles
 * Encapsulate what varies
 * Delegation. Favor composition over inheritance
 * Program to interfaces, not implementations
