@@ -206,7 +206,7 @@ are possible and would produce an explosion of subclasses to support every combi
 definition may be hidden or otherwise unavailable for subclassing.
 
 
-# [The Factory Pattern](https://github.com/realtehcman/DesignPatternsEricFreeman/blob/master/4factory/shape)
+# The Factory Pattern
 |categories | tags |
 |-----------|-------------|
 |Creational |Gang of Four|
@@ -259,8 +259,7 @@ Cons
 * The code becomes more complicated than it should be. 
 
 
-## The Factory Method Pattern
-
+## [The Factory Method Pattern](https://github.com/realtehcman/DesignPatternsEricFreeman/blob/master/4factory/shape)
 ![alt text](./UMLs/4.0factory.png "The Factory")
 
 Defines an interface for creating an object, but lets sub-classes decide which class to instantiate.  Factory Method lets a class defer instantiation to sub-classes.
