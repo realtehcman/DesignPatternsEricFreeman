@@ -219,18 +219,18 @@ definition may be hidden or otherwise unavailable for subclassing.
 - in the factory must return a constructed object
 - one of the most used design patterns in Java
 
-## The Simple Factory
+# The Simple Factory
 ![alt text](./UMLs/4.1simple_factory_programming_idiom.png "The Simple Factory Programming Idiom")
 
-## Also known as
+### Also known as
 * Static Factory Method
 
-## Intent
+### Intent
 
 Providing a static method encapsulated in a class called the factory, to hide the implementation 
 logic and make client code focus on usage rather than initializing new objects.
 
-## Explanation
+### Explanation
 
 Real-world example
 
@@ -244,7 +244,7 @@ Wikipedia says
 > Factory is an object for creating other objects – formally a factory is a function or method that 
 > returns objects of a varying prototype or class.
 
-## Applicability
+### Applicability
 
 Use the factory pattern when you only care about the creation of a object, not how to create 
 and manage it.
@@ -265,11 +265,11 @@ Cons
 
 Defines an interface for creating an object, but lets sub-classes decide which class to instantiate.  Factory Method lets a class defer instantiation to sub-classes.
 
-## Difference between Simple Factory and Factory Method
+### Difference between Simple Factory and Factory Method
     
 * The factory method has the interface
 
-### The Abstract Factory Pattern
+## The Abstract Factory Pattern
 Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 > Both of these patterns encapsulate object creation and lead to more decoupled, flexible designs.
 
