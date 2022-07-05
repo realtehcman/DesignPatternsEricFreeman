@@ -4,19 +4,19 @@ _Eric Freeman & Elisabeth Freeman, with Kathy Sierra & Bert Bates_
 Studying patterns based on the book Head First Design Patterns 2nd Edition ([book included in the resources folder](recources/freeman_eric_robson_elisabeth_head_first_design_patterns_bui.pdf))
 
 # Menu
-* The Strategy Pattern(#The Strategy Pattern)
-* The Observer Pattern
-* The Decorator Pattern
-* The Factory Pattern
-* The Singleton Pattern
-* The Command Pattern
-* The Adapter Pattern
-* The Facade Pattern
-* The Template Method Pattern
-* The Iterator Pattern
-* The Composite Pattern
-* The State Pattern
-* OOP Principles
+* [The Strategy Pattern](#the-strategy-pattern)
+* [The Observer Pattern](#the-observer-pattern)
+* [The Decorator Pattern](#the-decorator-pattern)
+* [The Factory Pattern](#the-factory-pattern)
+* [The Singleton Pattern](#the-singleton-pattern)
+* [The Command Pattern](#the-command-pattern)
+* [The Adapter Pattern](#the-adapter-pattern)
+* [The Facade Pattern](#the-facade-pattern)
+* [The Template Method Pattern](#the-template-method-pattern)
+* [The Iterator Pattern](#the-iterator-pattern)
+* [The Composite Pattern](#the-composite-pattern)
+* [The State Pattern](#the-state-pattern)
+* [OOP Principles](#oop-principles)
 
 # [The Strategy Pattern](https://github.com/realtehcman/DesignPatternsEricFreeman/blob/master/1strategy)
 
