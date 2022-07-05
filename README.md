@@ -219,7 +219,7 @@ definition may be hidden or otherwise unavailable for subclassing.
 - in the factory must return a constructed object
 - one of the most used design patterns in Java
 
-# The Simple Factory
+## The Simple Factory Programming Idiom
 ![alt text](./UMLs/4.1simple_factory_programming_idiom.png "The Simple Factory Programming Idiom")
 
 ### Also known as
